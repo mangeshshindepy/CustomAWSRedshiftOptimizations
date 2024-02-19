@@ -62,7 +62,7 @@ end_time = datetime.now()
 start_time = end_time - timedelta(days=30)
 
 # Send Email with Graphs and Tabular Data
-email_subject = f'DWH RDS Account Usage Report || Daily'
+email_subject = f'RDS Account Usage Report || Daily'
 email_from = ''
 #email_to = ['']
 email_to = []
